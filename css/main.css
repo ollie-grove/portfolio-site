@@ -184,19 +184,23 @@ figure {
 
 /* Structural Styles */
 
-header, #work, #skills, #about, footer {
+header, #work, #skills, #about-me, footer {
     display: flex; 
     justify-content: center;
     text-align: center;
-    flex-flow: row-wrap; 
+    flex-flow: row wrap; 
+}
+
+.content-wrapper {
+    width: 85%; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 10px; 
+    margin: 0px; 
 }
 
 p {
-    margin: 10px; 
+    margin: 0px; 
 }
 
 header {
@@ -205,11 +209,18 @@ header {
 }
 
 nav {
-    margin: 0 20px 0 60px;
+    margin-bottom: 60px;
 }
+
 
 #work {
     padding-top: 60px;
+}
+
+#work p,
+#about-me p {
+    width: 100%; 
+    text-align: left; 
 }
 
 #skills {
@@ -307,7 +318,7 @@ header h1 {
 }
 
 header h2 {
-    width 100%;
+    width: 100%;
 }
 
 
@@ -327,7 +338,7 @@ header h2 {
     display: flex; 
     justify-content: center;
     align-items: flex-start; 
-    flex-flow: row-wrap; 
+    flex-flow: row wrap; 
 }
 
 .home-portfolio-project { 
@@ -352,6 +363,7 @@ header h2 {
     padding: .75rem 3.75rem; 
     border-radius: 20px; 
     color: #152A3E;
+    margin: 40px;  
 }
 
 .project-link:hover {
@@ -381,6 +393,72 @@ header h2 {
 
 .tool {
     width: 100%; 
+}
+
+/*ABOUT*/
+
+#about-me {
+    width: 100%; 
+}
+
+#profile-image {
+    width: 90%; 
+}
+
+#about-me h3,
+#about-me h4, 
+#about p {
+    color: #152A3E;
+}
+
+
+/* --------------- BASE FOOTER STYLES -----------*/
+
+footer {
+    background-color: #F7E8E8;
+}
+
+footer .contact-wrapper {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .contact-info {
+    width: 100%; 
+}
+
+footer h3 {
+    width: 100%; 
+}
+
+footer .follow-section {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+}
+
+footer .social-icons {
+    display: flex; 
+    justify-content: space-around;
+}
+
+footer ul {
+    width: 100%; 
+}
+
+footer .social-icons li {
+    width: 40px; 
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icons li i {
+    font-size: 1.9rem; 
+    color: #152A3E;
 }
 
 /* ==========================================================================
@@ -471,8 +549,60 @@ header h2 {
     Modify as content requires.
     ========================================================================== */
  
- @media only screen and (min-width: 35em) {
-   /* Style adjustments for viewports that meet the condition */
+ @media only screen and (min-width: 768px) {
+    /* TABLET STYLES */
+    /* General Styles */
+    .content-wrapper {
+        max-width: 85%; 
+    }
+    
+    /*font styles*/
+    h1 {
+        font-size: 2.5rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+        }
+    
+    h3 {
+        font-size: 2rem; 
+        }
+
+    h4 {
+        font-size: 1.25rem; 
+    }
+
+    h5 {
+        font-size: 1.5rem; 
+    }
+
+    header nav ul li {
+        font-size: 1rem; 
+    }
+
+    /* Element Margins */
+
+    header {
+        padding-top: 60px; 
+        padding-bottom: 80px; 
+    }
+
+    nav {
+        margin-bottom: 80px;  
+    }
+
+    #work {
+        padding-top: 80px; 
+    }
+
+    #skills {
+        padding-bottom: 80px; 
+    }
+
+    footer {
+        padding: 140px 0; 
+    }
  }
  
  @media print,

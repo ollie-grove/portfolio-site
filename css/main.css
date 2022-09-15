@@ -598,10 +598,376 @@ footer .social-icons li i {
 
     #skills {
         padding-bottom: 80px; 
+        padding-top: 80px; 
     }
 
     footer {
-        padding: 140px 0; 
+        padding: 140px 0 80px 0; 
+    }
+
+    #about-me {
+        padding: 80px 0; 
+    }
+    
+    h2 {
+        margin-top: 80px; 
+    }
+
+    .portfolio-header {
+        margin: 0 0 60px 0; 
+    }
+
+    .project-description {
+        margin: 0 0 30px 0; 
+    }
+
+    .project-link {
+        margin: 40px 0 60px 0; 
+    }
+
+    .skills-header {
+        margin-bottom: 40px; 
+    }
+
+    #skills h4 {
+        margin: 40px 0 20px 0; 
+    }
+
+    .about-info h3 {
+        margin: 80px 0; 
+    }
+
+    .about-info h4 {
+        margin: 0 0 60px 0; 
+    }
+
+    .about-text {
+        margin: 0 0 30px 0; 
+    }
+
+    .contact-info {
+        margin: 80px 0; 
+    }
+
+    .contact-title {
+        margin: 0 0 30px 0; 
+    }
+
+    /* Header */
+
+    header .content-wrapper {
+        display: flex; 
+        justify-content: center;
+        flex-flow: row wrap; 
+    }
+
+    header nav {
+        display: flex; 
+        justify-content: center;
+        width: 100%; 
+        text-transform: uppercase;
+    }
+
+    header nav ul {
+        display: flex; 
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .home-title {
+        display: flex; 
+        flex-flow: row wrap; 
+        justify-content: center;
+    }
+
+    .home-title h2 {
+        max-width: 80%; 
+    }
+
+    /* Portfolio */
+
+    .portfolio-wrapper {
+        justify-content: space-around;
+    }
+
+    .home-portfolio-project {
+        width: 45%; 
+        align-items: center;
+    }
+
+    .project-description {
+        width: 90%; 
+    }
+
+    .skills-wrapper,
+    .tool-wrapper {
+        display: flex; 
+        justify-content: space-evenly;
+        width: 100%; 
+        flex-flow: row wrap;
+        text-transform: uppercase; 
+    }
+
+    .skill, .tool {
+        width: 45%; 
+    }
+
+    .skills-wrapper p,
+    .tool-wrapper p {
+        padding: 15px 0; 
+    }
+
+    /* About */
+    .about-content-wrapper {
+        display: flex; 
+        justify-content: center;
+        flex-flow: row wrap; 
+    }
+
+    #about figure {
+        width: 60%; 
+    }
+
+    .about-info h4 {
+        text-align: left; 
+    }
+
+    /* Footer */ 
+
+    .contact-wrapper {
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    footer .contact-info {
+        width: 33%; 
+        margin: 50px; 
+    }
+
+    footer ul {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center; 
+        flex-direction: row; 
+        width: 100%; 
+    }
+
+    footer .social-icons {
+        width: 12.5em; 
+        justify-content: space-between;
+    }
+
+    footer .social-icons li i {
+        font-size: 2rem; 
+    }
+ }
+
+ @media only screen and (min-width: 1024px) {
+    /*For landscape tablets*/
+
+    .content-wrapper {
+        max-width: 900px; 
+    }
+
+    .about-info h3 {
+        font-size: 3.5rem; 
+    }
+}
+
+
+ @media only screen and (min-width: 1200px) {
+
+    /*---------DESKTOP STYLES------------ */
+
+    .content-wrapper {
+        max-width: 1450px; 
+    }
+
+    /* font styles */
+
+    h1 {
+        font-size: 4rem; 
+    }
+
+    h2 {
+        font-size: 2rem; 
+    }
+
+    h3 {
+        font-size: 2.5rem; 
+    }
+
+    h4 {
+        font-size: 1.25rem; 
+    }
+
+    h5 {
+        font-size: 1.5rem; 
+    }
+
+    .about-info h3 {
+        font-size: 3.25rem; 
+        text-align: left; 
+    }
+
+    .about-info h4 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.25rem; 
+    }
+
+    .project-link, 
+    .skills-header p, 
+    .tool-wrapper p {
+        font-size: 1rem; 
+    }
+
+    /* Element Margins */ 
+
+    header {
+        padding-top: 80px; 
+        padding-bottom: 140px; 
+    }
+
+    nav {
+        margin-bottom: 80px; 
+    }
+
+    #work {
+        padding-top: 80px; 
+    }
+
+    #skills {
+        padding-bottom: 120px; 
+    }
+
+    #about-me {
+        padding-top: 80px; 
+        padding-bottom: 80px; 
+        width: 100%; 
+    }
+    
+    footer {
+        padding: 140px 0 140px 0; 
+    }
+
+    h2 {
+        margin-top: 40px; 
+    }
+
+    .portfolio-header {
+        margin: 0 0 60px 0; 
+    }
+
+    .project-description {
+        margin-bottom: 30px; 
+    }
+
+    .project-link {
+        margin: 40px 0 80px 0; 
+    }
+
+    #skills {
+        padding-top: 120px; 
+    }
+
+    #skills .content-wrapper {
+        max-width: 900px;
+    }
+
+    .skills-header {
+        margin-bottom: 40px; 
+    }
+    
+    .about-info h3 {
+        margin: 0; 
+    }
+
+    .about-info h4 {
+        margin: 40px 0; 
+    }
+
+    .about-text {
+        margin-bottom: 30px; 
+    }
+
+    .contact-info {
+        margin: 80px 0 80px 0; 
+    }
+
+    .contact-title {
+        margin-bottom: 30px; 
+    }
+
+    /* Header */
+
+    header .content-wrapper {
+        justify-content: flex-end;
+    }
+
+    header nav {
+        justify-content: flex-end;
+        width: 45%; 
+    }
+
+    nav ul li a {
+        padding: 10px 10px; 
+    }
+
+    nav ul li a:hover,
+    nav #contact-link:hover {
+        background-color: #F8D697; 
+        color: #152A3E; 
+        padding: 10px 10px; 
+        border-radius: 20px; 
+    }
+
+    .home-title {
+        max-width: 95%; 
+    }
+
+    /*Portfolio*/
+
+    .home-portfolio-project {
+        width: 25%; 
+        margin: 20px; 
+    }
+
+    /* skills */
+
+    .skill,
+    .tool {
+        width: 30%; 
+    }
+
+    /* about */
+
+    .about-content-wrapper {
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    #about-me figure {
+        width: 35%; 
+        margin-top: 0; 
+        
+    }
+
+    .about-info { 
+        width: 58%; 
+    }
+
+    /* Contact */
+
+    footer .content-wrapper {
+        max-width: 70%;
+    }
+
+    footer .social-icons {
+        width: 12.5em; 
+        justify-content: space-between;
     }
  }
  

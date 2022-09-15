@@ -121,7 +121,7 @@ h1 {
     font-family: 'Lexend Tera', sans-serif; 
     font-size: 1.75rem; 
     line-height: 1.5; 
-    width: 100; 
+    width: 100%; 
 }
 
 h2 {

@@ -52,7 +52,7 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
   
 - Using modern fluid typography with CSS function clamp(). Fluid typography changes with the user's screen size, whereas responsive typography changes with media queries
 
-- Device Pixel Ratio (DPR) or CSS Pixel Ratio: "...ratio between physical pixels (screen size or resolution) and CSS pixels (viewport. Depending on device specification, one CSS pixel can equal one or more physical pixels. Modern devices have screens with high pixel density resulting in the difference between screen size (resolution) and viewport." Viewport: number of software (CSS) pixel presne on a screen. 
+- Device Pixel Ratio (DPR) or CSS Pixel Ratio: "...ratio between physical pixels (screen size or resolution) and CSS pixels (viewport. Depending on device specification, one CSS pixel can equal one or more physical pixels. Modern devices have screens with high pixel density resulting in the difference between screen size (resolution) and viewport." Viewport: number of software (CSS) pixel present on a screen. 
   - "Summary: 
     - Screen size (Resolution) = viewport size x Device Pixel Ration
     - Viewport size = Screen size / Device Pixel Ratio

@@ -52,6 +52,13 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
   
 - Using modern fluid typography with CSS function clamp(). Fluid typography changes with the user's screen size, whereas responsive typography changes with media queries
 
+- Device Pixel Ratio (DPR) or CSS Pixel Ratio: "...ratio between physical pixels (screen size or resolution) and CSS pixels (viewport. Depending on device specification, one CSS pixel can equal one or more physical pixels. Modern devices have screens with high pixel density resulting in the difference between screen size (resolution) and viewport." Viewport: number of software (CSS) pixel presne on a screen. 
+  - "Summary: 
+    - Screen size (Resolution) = viewport size x Device Pixel Ration
+    - Viewport size = Screen size / Device Pixel Ratio
+    - CSS pixel ratio = Screen size / viewport size
+(https://blisk.io/devices/details/iphone-12)
+
 To see how you can add code snippets, see below:
 
 ```html
@@ -76,9 +83,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [The Clamp Calculator](https://royalfig.github.io/fluid-typography-calculator/) - This website allows you to input font sizes and viewports of your project, and creats a CSS clamp property with fallback.
 - [Easy Fluid Typography by Ryan Feigenbaum](https://ryanfeigenbaum.com/fluid-typography/) - "Fluid typography is text that scales in size and proportion to the user's viewport. ...font size should decrease as the screen becomes smaller and increase as it becomes larger." "Responsive typography works by changing font size via media queries." 
-- [PX, EM, or REM Media Queries? by Zell Liew](https://zellwk.com/blog/media-query-units/) - Helps explain why em-based media queries are best for accessibility. My takeaway is that is helps to support users who change their browser's font-size value. 
+- [PX, EM, or REM Media Queries? by Zell Liew](https://zellwk.com/blog/media-query-units/) - Helps explain why em-based media queries are best for accessibility. My takeaway is that is helps to support users who change their browser's font-size value. Using pixels for smaller spacing (like between social media icons) is okay. 
+- [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - Helpful for creating websites that are navigable for people using screen readers or without using a mouse.
 
 ## Acknowledgments
 
-Coder Coder on YouTube (https://www.youtube.com/@TheCoderCoder) - I watched a code-along video of a single-page developer portfolio challenge from Frontend Mentor. I learned so much just by watching Jess's Process.
+Coder Coder on YouTube (https://www.youtube.com/@TheCoderCoder) - I watched a code-along video of a single-page developer portfolio challenge from Frontend Mentor. I learned SO MUCH just by watching Jess's Process. She is very mindful about accessbility. Several of the #Useful Resources are links that she recommended. 
 

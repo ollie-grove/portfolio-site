@@ -52,8 +52,10 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
   
 - Using modern fluid typography with CSS function clamp(). Fluid typography changes with the user's screen size, whereas responsive typography changes with media queries
 
+- Comment shortcuts: To comment out a block of code, select the code you want to comment out and hit CTRL + /. Similarly, to add a comment, place cursor where you want the comment to start and hit the same shortcut. 
+
 - Device Pixel Ratio (DPR) or CSS Pixel Ratio: "...ratio between physical pixels (screen size or resolution) and CSS pixels (viewport. Depending on device specification, one CSS pixel can equal one or more physical pixels. Modern devices have screens with high pixel density resulting in the difference between screen size (resolution) and viewport." Viewport: number of software (CSS) pixel present on a screen. 
-  - "Summary: 
+  - Summary: 
     - Screen size (Resolution) = viewport size x Device Pixel Ration
     - Viewport size = Screen size / Device Pixel Ratio
     - CSS pixel ratio = Screen size / viewport size
@@ -61,12 +63,15 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+```<h1 class="hero-headline">
+            Hi, I'm <span>Ollie Grove.</span>
+          </h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+```h1 span {
+    background-image: linear-gradient(to right, var(--accent) 75%, var(--accent) 75%);
+    background-position: 0 1.218em;
+    background-repeat: repeat-x;
+    background-size: 8px 4px;
 }
 ```
 ```js

@@ -93,6 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Easy Fluid Typography by Ryan Feigenbaum](https://ryanfeigenbaum.com/fluid-typography/) - "Fluid typography is text that scales in size and proportion to the user's viewport. ...font size should decrease as the screen becomes smaller and increase as it becomes larger." "Responsive typography works by changing font size via media queries." 
 - [PX, EM, or REM Media Queries? by Zell Liew](https://zellwk.com/blog/media-query-units/) - Helps explain why em-based media queries are best for accessibility. My takeaway is that is helps to support users who change their browser's font-size value. Using pixels for smaller spacing (like between social media icons) is okay. 
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/) - Helpful for creating websites that are navigable for people using screen readers or without using a mouse.
+- - [fffuel](https://fffuel.co/)) - Fun, free website for free SVG generators. You can make gradients, patterns, textures, shapes, and backgrounds. This is the site I used to create the background shapes in my portfolio. 
 
 ## Acknowledgments
 

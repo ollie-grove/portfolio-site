@@ -73,6 +73,9 @@ To see how you can add code snippets, see below:
     background-repeat: repeat-x;
     background-size: 8px 4px;
 }
+
+//From (https://codepen.io/johndjameson/pen/NrZgQY)
+What this does: Use a background image and linear gradient (in this case to the same color) to add an underline to text. You can control the space in between the line and the text and thickness/decoration of the text. And it works even if the line breaks. 
 ```
 ```js
 const proudOfThisFunc = () => {

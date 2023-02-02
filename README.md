@@ -60,6 +60,7 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
     - Viewport size = Screen size / Device Pixel Ratio
     - CSS pixel ratio = Screen size / viewport size
 (https://blisk.io/devices/details/iphone-12)
+- Problem: The social media icons went offscreen when in tablet and desktop mode. Solution: 
 
 To see how you can add code snippets, see below:
 

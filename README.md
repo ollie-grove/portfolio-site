@@ -60,6 +60,18 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
     - Viewport size = Screen size / Device Pixel Ratio
     - CSS pixel ratio = Screen size / viewport size
 (https://blisk.io/devices/details/iphone-12)
+
+- Accessibility: 
+  - Using a class of .visually-hidden for headers and other text you want to hide visually, but will be read for those using screen readers. 
+  .visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    }
+
 - Problem: The social media icons went offscreen when in tablet and desktop mode. Solution: 
 
 To see how you can add code snippets, see below:

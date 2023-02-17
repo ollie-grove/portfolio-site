@@ -63,7 +63,8 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
 
 - Accessibility: 
   - Using a class of .visually-hidden for headers and other text you want to hide visually, but will be read for those using screen readers. 
-  ```.visually-hidden {
+  ```
+  .visually-hidden {
     position: absolute;
     left: -10000px;
     top: auto;
@@ -72,15 +73,9 @@ I researched some upcoming 2023 web design trends, and decided to go with a Glas
     overflow: hidden;
     }
     ```
-
-- Problem: The social media icons went offscreen when in tablet and desktop mode. Solution: 
-
-To see how you can add code snippets, see below:
-
-```<h1 class="hero-headline">
-            Hi, I'm <span>Ollie Grove.</span>
-          </h1>
-```
+    
+//From (https://codepen.io/johndjameson/pen/NrZgQY)
+What this does (code below): Use a background image and linear gradient (in this case to the same color) to add an underline to text. You can control the space in between the line and the text and thickness/decoration of the text. And it works even if the line breaks.
 ```h1 span {
     background-image: linear-gradient(to right, var(--accent) 75%, var(--accent) 75%);
     background-position: 0 1.218em;
@@ -89,8 +84,7 @@ To see how you can add code snippets, see below:
 }
 ```
 
-//From (https://codepen.io/johndjameson/pen/NrZgQY)
-What this does: Use a background image and linear gradient (in this case to the same color) to add an underline to text. You can control the space in between the line and the text and thickness/decoration of the text. And it works even if the line breaks. 
+ 
 ```
 ```js
 const proudOfThisFunc = () => {
